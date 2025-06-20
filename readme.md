@@ -18,7 +18,7 @@ The project's objective is to apply, compare, and evaluate the performance of th
 The study uses the `trabalhosalarios.RData` dataset. The dependent variable is `lwage` (the natural logarithm of the wife's hourly wage), and all other variables in the dataset were used as predictors.
 
 The methodology followed these steps:
-1.  **Preprocessing:** The data was split into training (80%) and test (20%) sets[cite: 8, 15, 22]. Continuous variables were standardized (centered and scaled) to fit the requirements of the regularized models.
+1.  **Preprocessing:** The data was split into training (80%) and test (20%) sets. Continuous variables were standardized (centered and scaled) to fit the requirements of the regularized models.
 2.  **Model Training:**
     * **Ridge Regression:** Trained using `alpha = 0`.
     * **Lasso Regression:** Trained using `alpha = 1`.
