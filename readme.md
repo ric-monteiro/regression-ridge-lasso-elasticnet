@@ -13,6 +13,10 @@ The project's objective is to apply, compare, and evaluate the performance of th
 * Ricardo Monteiro
 * Rodrigo Dittmar
 
+## Professor
+
+Prof. Dr. Arno P. Schmitz
+
 ## Analysis and Methodology
 
 The study uses the `trabalhosalarios.RData` dataset. The dependent variable is `lwage` (the natural logarithm of the wife's hourly wage), and all other variables in the dataset were used as predictors.
