@@ -27,7 +27,7 @@ library(repr)
 library(glmnet)
 
 # Carregando o dataset
-load("C:/Temp/Bases de Dados Usadas nas Aulas Práticas - Est II/trabalhosalarios.RData")
+load("trabalhosalarios.RData") # arquivo na raiz do repositório
 
 dat_ridge <- trabalhosalarios
 View(dat_ridge)
@@ -192,7 +192,7 @@ library(repr)
 library(glmnet)
 
 # Carregando o dataset
-load("C:/Temp/Bases de Dados Usadas nas Aulas Práticas - Est II/trabalhosalarios.RData")
+load("trabalhosalarios.RData") # arquivo na raiz do repositório
 
 # Guardando o dataset em um novo objeto
 dat_lasso <- trabalhosalarios
@@ -373,7 +373,7 @@ library(glmnet)
 library(caret)
 
 # Carregando a base de dados com informações salariais
-load("C:/Temp/Bases de Dados Usadas nas Aulas Práticas - Est II/trabalhosalarios.RData")
+load("trabalhosalarios.RData") # arquivo na raiz do repositório
 dat_elastic <- trabalhosalarios
 
 # Explorando o conjunto de dados
